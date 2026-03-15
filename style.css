@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: white;
+}
+
+header {
+    background-color: #0f172a;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 60px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+.hero-left {
+    max-width: 55%;
+}
+
+.hero-left h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-left span {
+    color: #3b82f6;
+}
+
+.hero-left h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #cbd5e1;
+}
+
+.hero-left p {
+    line-height: 1.8;
+    color: #cbd5e1;
+}
+
+.hero-icons a {
+    color: white;
+    font-size: 22px;
+    margin-right: 18px;
+    transition: 0.3s;
+}
+
+.hero-icons a:hover {
+    color: #3b82f6;
+}
+
+.hero-right img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #1e293b;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+}
+
+section {
+    padding: 50px 60px;
+}
+
+h2 {
+    color: #3b82f6;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111827;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    border-left: 4px solid #3b82f6;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #60a5fa;
+}
+
+.card p,
+.card li {
+    color: #d1d5db;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.contact p {
+    line-height: 2;
+}
+
+i {
+    margin-right: 8px;
+    color: #3b82f6;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
